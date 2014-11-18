@@ -1,0 +1,36 @@
+@import"bourbon";
+// @import"neat";
+@import"bootstrap";
+@import"font-awesome";
+$bgc:#84c6f5;
+body, html {
+  height: 100%;
+  background-color: #2b414d;
+  // overflow-y: hidden;
+}
+.wrapper {
+  // background-color: pink;
+  height: 100%;
+  margin: 0 10%;
+}
+.main-area {
+  background-color: #358ebc;
+  height: 100%;
+}
+.row, .ani-box {
+  height: 100%;
+}
+.ani-box {
+  padding: 0;
+  overflow: hidden;
+}
+svg {
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+}
+path {
+  stroke: none;
+  fill: #358ebc;
+  stroke-width: 0;
+}
